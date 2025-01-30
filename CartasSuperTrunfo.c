@@ -21,7 +21,7 @@ int main() {
     // Sugestão: Utilize a função scanf para capturar as entradas do usuário para cada atributo.
     // Solicite ao usuário que insira as informações de cada cidade, como o código, nome, população, área, etc.
 
-    printf("Digite o CEP da sua Ciddade: \n");
+    printf("Digite o CEP da sua Cidade: \n");
     scanf("%d", &CEP);
 
     printf("Digite a total da população da sua cidade: \n");
