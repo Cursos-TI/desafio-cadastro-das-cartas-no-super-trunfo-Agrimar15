@@ -10,10 +10,12 @@ int main() {
     // Sugestão: Defina variáveis separadas para cada atributo da cidade.
     // Exemplos de atributos: código da cidade, nome, população, área, PIB, número de pontos turísticos.
 
-    printf ("Bem vindo ao Jogo de Cartas Super Trunfo!");
-    int CEP = 50750370, população = 300000, pontos = 5;
+    printf ("Bem vindo ao Jogo de Cartas Super Trunfo! \n");
+    int CEP = 50750370;
+    int populacao = 300000;
+    int pontos = 5;
     char nome [150] = "Varzea";
-    float PIB;
+    float PIB = 5400000;
         
     // Cadastro das Cartas:
     // Sugestão: Utilize a função scanf para capturar as entradas do usuário para cada atributo.
@@ -23,7 +25,7 @@ int main() {
     scanf("%d", &CEP);
 
     printf("Digite a total da população da sua cidade: \n");
-    scanf("%d", &população);
+    scanf("%d", &populacao);
 
     printf("Informe quantos pontos turisticos a sua cidade tem: \n");
     scanf("%d", &pontos);
